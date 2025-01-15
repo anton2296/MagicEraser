@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "cgmath",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gadirom/CGMath",
+      "state" : {
+        "revision" : "ed3125a2d6d9a98f4a7d58a4f79fc9c159498650",
+        "version" : "1.0.4"
+      }
+    },
+    {
+      "identity" : "transformgesture",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/gadirom/TransformGesture.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "6b67c6d3989efc0be4cf0de1d735c2c480e5360c"
+      }
+    }
+  ],
+  "version" : 2
+}

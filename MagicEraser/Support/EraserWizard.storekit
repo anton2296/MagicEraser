@@ -1,0 +1,193 @@
+{
+  "identifier" : "56DCB3EB",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "6740698552",
+      "localizations" : [
+        {
+          "description" : "Purchase removes watermark from photo.",
+          "displayName" : "One photo",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Покупка убирает вотермарку с фотографии.",
+          "displayName" : "Одно фото",
+          "locale" : "ru"
+        }
+      ],
+      "productID" : "onePhoto",
+      "referenceName" : "One photo",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6740634151",
+    "_developerTeamID" : "2W368B8DYP",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 759258424.81632805,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21623000",
+      "localizations" : [
+
+      ],
+      "name" : "subs",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "5.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6740700204",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Получить доступ ко всему функционалу.",
+              "displayName" : "Подписка на месяц",
+              "locale" : "ru"
+            },
+            {
+              "description" : "Get access to all functionality.",
+              "displayName" : "Monthly subscription",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "month",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "month",
+          "subscriptionGroupID" : "21623000",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6740700599",
+          "introductoryOffer" : {
+            "internalID" : "21378945",
+            "numberOfPeriods" : 1,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P3D"
+          },
+          "localizations" : [
+            {
+              "description" : "получить доступ ко всему функционалу.",
+              "displayName" : "Недельная подписка",
+              "locale" : "ru"
+            },
+            {
+              "description" : "Get access to all functionality.",
+              "displayName" : "Subscription for a week",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "week",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "week",
+          "subscriptionGroupID" : "21623000",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "19.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6740700336",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Получить доступ ко всему функционалу.",
+              "displayName" : "Годовая подписка",
+              "locale" : "ru"
+            },
+            {
+              "description" : "Get access to all functionality.",
+              "displayName" : "Annual subscription",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "year",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "year",
+          "subscriptionGroupID" : "21623000",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
